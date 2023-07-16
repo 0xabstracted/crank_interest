@@ -1,0 +1,17 @@
+[package]
+name = "crank_interest"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anchor-client = "=0.27.0"
+anyhow = "1.0.58"
+chrono = { version = "0.4.22", default-features = false, features = ["clock"] }
+savings_vault = { path = "../savings_vault/programs/savings_vault" }
+solana-sdk = "~1.14.14"
+solana-client = "~1.14.14"
+solana-program = "~1.14.14"
+spl-token = { version = "3.5.0", features = ["no-entrypoint"] }
+tokio = { version = "1.14.1", features = ["full"] }
