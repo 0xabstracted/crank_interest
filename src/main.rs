@@ -34,8 +34,8 @@ use {
 
 pub const SAVINGS_VAULT_PROGRAM_ID: &str = "HfJVM6Ayjajt9H58AZoCFqkCQQFehSeQfGQbi3crxT8W";
 
-pub const KEYPAIR_PATH: &str = "/Users/0xabstracted/Documents/wallets/TempUpdateAuthority/TUAXRFzyLeXmG9wPLaMXt66jUagfrWmL9oGq4rMwjAu.json";
-pub const RPC_URL: &str = "https://devnet.helius-rpc.com/?api-key=7c45b0ae-2e65-4ef0-b68c-defcf9f5b581";
+pub const KEYPAIR_PATH: &str = "/Users/0xabstracted/.config/solana/id.json";
+pub const RPC_URL: &str = "https://api.devnet.solana.com";
 pub const COMPUTE_UNITS: u32 = 400_000;
 
 
